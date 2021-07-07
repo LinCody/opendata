@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tw.cody.newtaipei">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7237500042368815~6224218063"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".newtaipei"
+            android:label="首頁"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".newtaipei_pp"
+            android:label="新北市路外公共停車場資訊"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".newtaipeiyb"
+            android:label="新北市公共自行車租賃系統(YouBike)"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".newtaipeirp"
+            android:label="新北市路邊停車空位查詢"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".newtaipeirtp"
+            android:label="新北市路邊收費停車場收費路段資訊"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".newtaipei107a2"
+            android:label="107年新北市A2道路交通事故"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".newtaipei106a2"
+            android:label="106年新北市A2道路交通事故"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".newtaipei105a1"
+            android:label="105年新北市A1道路交通事故"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".newtaipei105a2"
+            android:label="105年新北市A2道路交通事故"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".newtaipei104a1"
+            android:label="104年度A1類交通事故資料"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".newtaipei104a2"
+            android:label="104年度A2類交通事故資料"
+            android:screenOrientation="portrait">
+
+        </activity>
+    </application>
+
+</manifest>
